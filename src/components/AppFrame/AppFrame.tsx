@@ -15,6 +15,7 @@ export default function AppFrame({ children }: React.PropsWithChildren) {
                     border: "1px solid #525252",
                     borderBottom: 0,
                     borderRight: 0,
+                    minHeight: "93vh"
                 }}>
                     {children}
                 </Container>

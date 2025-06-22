@@ -3,7 +3,7 @@ import { IconBell, IconClipboardData, IconCloudUpload, IconHome, IconMenu2, Icon
 
 export default function LeftBar() {
     return (
-        <Stack justify="space-between" align="center" pt="md" pl="md">
+        <Stack justify="space-between" align="center">
             <Stack>
                 <Button p={5} variant="subtle" color="#fff">
                     <IconMenu2 />
