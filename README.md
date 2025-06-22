@@ -1,3 +1,36 @@
+# Michelle Lee Answers AI code assessment
+
+Visit the site: https://michl15.github.io/data-vis/
+
+## Dev Setup
+1. Clone the repository
+2. Run `yarn` to install dependencies
+3. Run `yarn dev` to start the local development server. Navigate to the `localhost` URL provided.
+
+## Features Implemented
+- Dashboard: 
+ - Display data, including line chart, KPI, best scenarios
+ - Open "Edit Variables" button to view variable data
+- Data:
+ - Displayed as line chart.
+ - Select variable with dropdown
+ - Hovering data points opens context for selected variable
+- Drawer:
+ - Shows variables by category
+ - Hovering a variable will show additional context
+
+## Technical Decisions/Tradeoffs
+- Utilized Mantine's Component library to assist building
+ - Due to this, it was slightly more difficult to customize CSS and styles
+ - However, Mantine provided a ton of functionality with unique hooks like `useDisclosure` and `useHover`
+- Utilized Redux and Redux Toolkit for state management
+ - Used dummy data for initialState, but can utilize middleware to populate data via API
+
+## Known Limitations
+- Ability to search variables not implemented
+- Ability to add new variables not implemented
+- Auth via firebase not implemented
+
 # Mantine Vite template
 
 ## Features
