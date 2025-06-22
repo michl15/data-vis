@@ -1,6 +1,6 @@
 # Michelle Lee Answers AI code assessment
 
-Visit the site: https://michl15.github.io/data-vis/
+Hosted on Github Pages: https://michl15.github.io/data-vis/
 
 ## Dev Setup
 1. Clone the repository
@@ -9,22 +9,22 @@ Visit the site: https://michl15.github.io/data-vis/
 
 ## Features Implemented
 - Dashboard: 
- - Display data, including line chart, KPI, best scenarios
- - Open "Edit Variables" button to view variable data
+  - Display data, including line chart, KPI, best scenarios
+  - Open "Edit Variables" button to view variable data
 - Data:
- - Displayed as line chart.
- - Select variable with dropdown
- - Hovering data points opens context for selected variable
+  - Displayed as line chart.
+  - Select variable with dropdown
+  - Hovering data points opens context for selected variable
 - Drawer:
- - Shows variables by category
- - Hovering a variable will show additional context
+  - Shows variables by category
+  - Hovering a variable will show additional context
 
 ## Technical Decisions/Tradeoffs
 - Utilized Mantine's Component library to assist building
- - Due to this, it was slightly more difficult to customize CSS and styles
- - However, Mantine provided a ton of functionality with unique hooks like `useDisclosure` and `useHover`
+  - Due to this, it was slightly more difficult to customize CSS and styles
+  - However, Mantine provided a ton of functionality with unique hooks like `useDisclosure` and `useHover`
 - Utilized Redux and Redux Toolkit for state management
- - Used dummy data for initialState, but can utilize middleware to populate data via API
+  - Used dummy data for initialState, but can utilize middleware to populate data via API
 
 ## Known Limitations
 - Ability to search variables not implemented
